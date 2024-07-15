@@ -22,4 +22,30 @@ E. A. Lopez-Rojas , A. Elmir, and S. Axelsson. "PaySim: A financial mobile money
 - No missing values were mentioned as NaN but there are in fact missing details in account balances. 
 
 
-![image](https://github.com/user-attachments/assets/04e89b92-4ba5-4b01-9f14-f538fe63c304)
+![image](https://github.com/user-attachments/assets/f6f6550b-4136-4a0d-87d3-ca24666c6d47)
+
+
+![image](https://github.com/user-attachments/assets/93422a63-c49c-4838-b65a-c3ed5dd701d7)
+
+
+- 'oldbalanceOrg' in fraud cases is much higher, indicating those who are targeted are generally those with a lot of money. 'newbalanceOrig' in fraud cases are much less in fraud cases. 'newbalanceDest' in fraud cases is very less, indicating the person who does have much money in account is more likely to steal. 
+
+## Feature Engineering
+
+- Mapped the Amount column into different ranges using transformer
+
+- Defined transaction type ,i.e, who the transaction is between. This could be found from the customer name. Defined is the transaction is between:
+          0)Customer to Customer   1)Customer to Merchant 
+          2) Merchant to Customer  3) Merchant to Merchant
+
+- It was found that majority of transaction type was Customer to customer and few customer to Merchant
+
+- Step column was converted into hours of the day 
+
+![image](https://github.com/user-attachments/assets/af721d87-1990-494c-acca-30e577dd38db)
+
+![image](https://github.com/user-attachments/assets/cb3f3f1d-f85b-4941-99ef-73d714e3df2a)
+
+![image](https://github.com/user-attachments/assets/ddc6bae9-3763-4c82-8840-9b8614d877cc)
+
+
