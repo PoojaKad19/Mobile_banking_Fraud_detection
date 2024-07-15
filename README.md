@@ -131,6 +131,40 @@ Sequential Model:
 ![image](https://github.com/user-attachments/assets/5211c24a-2a4a-490d-b044-0d9790660910)
 
 
-Ensemble learning of Sequential Model
+Ensemble learning of Sequential Model:
 
-![image](https://github.com/user-attachments/assets/fc300bc1-a2fa-44ec-800f-424b36459347)
+![image](https://github.com/user-attachments/assets/cbae2436-ecfc-48c5-a60d-3c944f6d1e1a)              ![image](https://github.com/user-attachments/assets/96d2ccbd-3948-450f-873e-e94dc9ed4655)                 ![image](https://github.com/user-attachments/assets/ca5a938f-e43f-4a33-8964-c113ef6f99bb)
+
+
+### Confusion Matrix
+
+Functional Model: 
+
+![image](https://github.com/user-attachments/assets/64f08b9f-3643-471c-935d-06370d88c273)
+
+
+Sequential Model:
+
+![image](https://github.com/user-attachments/assets/da16d938-c5b0-4cc1-b3af-14784ca44acf)
+
+
+Ensemble learning of Sequential Model:
+
+![image](https://github.com/user-attachments/assets/d5880ca7-8a58-42b2-b3e4-8769a0903492)
+
+
+## Visualizing Predictions
+
+![image](https://github.com/user-attachments/assets/93289c23-204b-42a6-9d91-eba48f67e7a4)             ![image](https://github.com/user-attachments/assets/0e4cf601-471e-49d6-8747-c774781b49dd)               ![image](https://github.com/user-attachments/assets/8152d12f-7401-4479-a5a0-a4366dc2aad6)
+
+![image](https://github.com/user-attachments/assets/fadeb066-89fa-48bd-bbae-f30ccf675e95)              ![image](https://github.com/user-attachments/assets/05f2da09-5bbb-4a9e-a975-6e2ac4e4c1de)
+
+
+- Visualize the predictions and compare them with the ground truth to gain insights into the model's performance.
+- The blue line represents the values of the input features (CategoricalAmount, hour, transaction_type) for a specific example (index) from your test data.
+- Ground Truth (Ground Truth line in red dashed):The red dashed line represents the ground truth value for the corresponding example (index). This is the actual target or label for the given input features.
+- Ensemble Prediction (Ensemble Prediction line in blue dashed):The blue dashed line represents the prediction made by your ensemble model for the same example (index). This is the predicted value based on the ensemble of multiple models.
+- By visualizing the input features, ground truth, and ensemble prediction on the same plot, you can get an intuitive sense of how well your ensemble model is performing for these specific examples. If the blue dashed line (ensemble prediction) aligns well with the red dashed line (ground truth), it indicates that your ensemble model is making accurate predictions for these particular examples. If there are discrepancies, you may want to inspect and understand why the model predictions differ from the ground truth.
+
+
+
