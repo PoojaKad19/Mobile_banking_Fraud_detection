@@ -106,10 +106,17 @@ After the loop completes, the models list contains three trained neural network 
 
 ## Results: Training and Validation Accuracy
 
-![image](https://github.com/user-attachments/assets/aea7b81d-ad8f-4099-8144-8ac3f78ec990)        ![image](https://github.com/user-attachments/assets/64c8d48f-7c94-45dd-9c2b-466be2911c54)
-                            Functional Model                                                                                       Sequential Model
+Functional Model :
 
+![image](https://github.com/user-attachments/assets/aea7b81d-ad8f-4099-8144-8ac3f78ec990)       
+                                                                                                                  
+Sequential Model:
 
+ ![image](https://github.com/user-attachments/assets/64c8d48f-7c94-45dd-9c2b-466be2911c54)
+
+Ensemble learning of Sequential Model :
+
+![image](https://github.com/user-attachments/assets/18578739-03f3-4c96-b49f-cad40320310e)              ![image](https://github.com/user-attachments/assets/531d73a2-ed6f-4ca5-8210-7c7756a7cb4f)                ![image](https://github.com/user-attachments/assets/61072e83-06a8-470b-b540-d415f675123c)
 
 
 
