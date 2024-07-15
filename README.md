@@ -70,6 +70,47 @@ These features were re-scaled. The features  – CategoricalAmount, hour, transa
 - The output layer uses a sigmoid activation function, and the model is compiled with binary cross-entropy loss and the Adam optimizer. 
 
 
-![image](https://github.com/user-attachments/assets/fb135798-6ce9-42ee-a7e0-5ec09a7b90bc)          
+![image](https://github.com/user-attachments/assets/fb135798-6ce9-42ee-a7e0-5ec09a7b90bc)          ![image](https://github.com/user-attachments/assets/e838ebda-d045-4684-87d6-1e0dc6d867aa)
 
-![image](https://github.com/user-attachments/assets/e838ebda-d045-4684-87d6-1e0dc6d867aa)
+
+### 2. Sequential Model
+
+- Sequential model supports linear stacks of layers.
+
+- Below code defines a neural network for binary classification using the Sequential API. 
+
+- It consists of four hidden layers with ReLU activation, dropout layers for regularization, and an output layer with a sigmoid activation function. 
+
+
+![image](https://github.com/user-attachments/assets/c4a44e8a-68a2-4db0-9918-96729cc019d1)          ![image](https://github.com/user-attachments/assets/a862bfa0-a110-4f8e-8915-5851159eff1e)
+
+
+### 3. Ensemble Learning of Sequential Model
+
+- The provided code creates an ensemble of neural network models for binary classification. The number of models in the ensemble is set to 3 (num_models = 3).
+
+1. Initialization: Two empty lists (models and history_enseq_list) are initialized to store individual models and their training histories, respectively.
+
+2. Model Training Loop: The code iterates num_models times, each time splitting the training data into training and validation sets using different random seeds.
+
+3. The ModelCheckpoint callback is used to save the weights of the best-performing model based on validation loss during training.
+
+- Training and Saving:
+1. Each model is trained on its respective split of the data for 150 epochs with a batch size of 64.
+2. The weights of the best-performing model are loaded back into the model after training.
+
+After the loop completes, the models list contains three trained neural network models, and history_enseq_list contains their corresponding training histories. This ensemble of models provides diversity in training data splits and initialization conditions, contributing to potentially improved generalization performance.
+
+![image](https://github.com/user-attachments/assets/005dfa26-d039-4906-b176-0ae5f8d3c3dc)
+
+
+## Results: Training and Validation Accuracy
+
+![image](https://github.com/user-attachments/assets/aea7b81d-ad8f-4099-8144-8ac3f78ec990)        ![image](https://github.com/user-attachments/assets/64c8d48f-7c94-45dd-9c2b-466be2911c54)
+                            Functional Model                                                                                       Sequential Model
+
+
+
+
+
+
