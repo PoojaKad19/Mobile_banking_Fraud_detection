@@ -119,5 +119,18 @@ Ensemble learning of Sequential Model :
 ![image](https://github.com/user-attachments/assets/18578739-03f3-4c96-b49f-cad40320310e)              ![image](https://github.com/user-attachments/assets/531d73a2-ed6f-4ca5-8210-7c7756a7cb4f)                ![image](https://github.com/user-attachments/assets/61072e83-06a8-470b-b540-d415f675123c)
 
 
+### Training and Validation Loss
+
+Functional Model: 
+
+![image](https://github.com/user-attachments/assets/c8426c9a-14fc-4d18-a40c-c8438e765a0a)
 
 
+Sequential Model:
+
+![image](https://github.com/user-attachments/assets/5211c24a-2a4a-490d-b044-0d9790660910)
+
+
+Ensemble learning of Sequential Model
+
+![image](https://github.com/user-attachments/assets/fc300bc1-a2fa-44ec-800f-424b36459347)
