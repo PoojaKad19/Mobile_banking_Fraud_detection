@@ -49,3 +49,27 @@ E. A. Lopez-Rojas , A. Elmir, and S. Axelsson. "PaySim: A financial mobile money
 ![image](https://github.com/user-attachments/assets/ddc6bae9-3763-4c82-8840-9b8614d877cc)
 
 
+## Training and Validation
+
+- Dropped unnecessary columns and then best features were selected. 
+
+![image](https://github.com/user-attachments/assets/37be82a0-c8a7-4109-a21b-290634417d2b)
+
+These features were re-scaled. The features  – CategoricalAmount, hour, transaction_type
+
+- First, the training data was trained for  functional neural network data model. 
+- Then, training and validation was done using Sequential Neural Network.
+- Also checked whether performance increased or not using ensemble of sequential Neural Network model.
+
+### 1. Functional API of Keras
+
+- The functional API can handle models with non-linear topology, shared layers, and even multiple inputs or outputs. The Functional API is a very flexible and powerful way to define models.
+
+- The code defines a neural network model for binary classification with four hidden layers, each followed by a dropout layer for regularization. 
+
+- The output layer uses a sigmoid activation function, and the model is compiled with binary cross-entropy loss and the Adam optimizer. 
+
+
+![image](https://github.com/user-attachments/assets/fb135798-6ce9-42ee-a7e0-5ec09a7b90bc)          
+
+![image](https://github.com/user-attachments/assets/e838ebda-d045-4684-87d6-1e0dc6d867aa)
